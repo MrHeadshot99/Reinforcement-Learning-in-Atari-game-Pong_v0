@@ -24,7 +24,9 @@
 <br/><br/>ROM: Gym requires ROM files for the Atari games it provides as environments. These ROM files are necessary data files for running the games. However, Gym cannot distribute the ROM files alongside the Atari environments due to licensing issues with OpenAI. Therefore, you need to install the ROM files separately.
 <br/>$ python -m atari_py.import_roms Roms
 <br/>https://github.com/openai/atari-py#roms
-5. Fixing AttributeError: 'str' object has no attribute 'decode' Error When Using h5py Version 3.x.x
+![image](https://github.com/MrHeadshot99/Reinforcement-Learning-in-Atari-game-Pong_v0/assets/129389397/85b2a78f-29f0-4ad4-bf5b-86ca5b1918a3)
+
+6. Fixing AttributeError: 'str' object has no attribute 'decode' Error When Using h5py Version 3.x.x
 <br/><br/>To resolve this issue, you can reinstall h5py with version 2.10.0 using the following command:
 <br/>pip install h5py==2.10.0 --force-reinstall
 
